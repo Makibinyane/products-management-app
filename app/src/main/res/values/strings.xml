@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">airlift-products-app</string>
+    <string name="save_text">Save</string>
+    <string name="product_description_hint_text">Product description</string>
+    <string name="product_image_hint_text">Product image url</string>
+    <string name="product_category_hint_text">Product category</string>
+    <string name="product_price_hint_text">Product price</string>
+    <string name="product_title_hint_text">Product title</string>
+    <string name="add_new_product_title">Add New Product</string>
+    <string name="add_new_product_button_description">Add new product</string>
+    <string name="add_product_successfully_message">Product has been added successfully</string>
+    <string name="product_list_title">Product list</string>
+    <string name="product_details_title">Product details</string>
+    <string name="add_product_title">Add product</string>
+    <string name="product_title_error_message">Please enter product title</string>
+    <string name="product_category_error_message">Please enter product category</string>
+    <string name="product_description_error_message">Please enter product description</string>
+    <string name="product_price_error_message">Please enter product price</string>
+    <string name="product_image_error_message">Please enter product image link</string>
+
+
+</resources>

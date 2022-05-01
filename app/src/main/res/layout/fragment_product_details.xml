@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView.Light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen_eight"
+    android:layout_marginTop="@dimen/dimen_eight"
+    android:layout_marginEnd="@dimen/dimen_eight">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txtProductDetailsTitle"
+            android:layout_width="@dimen/dimen_default"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_twelve"
+            android:layout_marginTop="@dimen/dimen_four"
+            android:layout_marginEnd="@dimen/dimen_sixteen"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#DE000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Nike soccer bag" />
+
+        <TextView
+            android:id="@+id/txtProductDetailsCategory"
+            android:layout_width="@dimen/dimen_default"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_twelve"
+            android:layout_marginEnd="@dimen/dimen_sixteen"
+            android:layout_marginBottom="@dimen/dimen_four"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#8A000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductDetailsTitle"
+            tools:text="Bag" />
+
+
+        <TextView
+            android:id="@+id/txtProductDetailsPrice"
+            android:layout_width="@dimen/dimen_default"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_twelve"
+            android:layout_marginEnd="@dimen/dimen_sixteen"
+            android:layout_marginBottom="@dimen/dimen_four"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#8A000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductDetailsCategory"
+            tools:text="R 200.00" />
+
+        <ImageView
+            android:id="@+id/txtProductDetailsImage"
+            android:layout_width="@dimen/dimen_default"
+            android:layout_height="@dimen/dimen_default"
+            android:layout_marginStart="@dimen/dimen_twelve"
+            android:layout_marginTop="@dimen/dimen_twelve"
+            android:layout_marginEnd="@dimen/dimen_sixteen"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintBottom_toTopOf="@+id/txtProductDetailsDescription"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductDetailsPrice" />
+
+        <TextView
+            android:id="@+id/txtProductDetailsDescription"
+            android:layout_width="@dimen/dimen_default"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_sixteen"
+            android:layout_marginTop="@dimen/dimen_ten"
+            android:layout_marginEnd="@dimen/dimen_sixteen"
+            android:layout_marginBottom="@dimen/dimen_ten"
+            android:lineSpacingExtra="@dimen/dimen_eight"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#DE000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductDetailsImage"
+            tools:text="This is my description" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
